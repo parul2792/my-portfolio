@@ -30,10 +30,10 @@ const intro = () => {
       
       </div>
         <div className='i-right'>
-         { /* <img src={Me} alt=""className='i-img'></img> */}
+         <img src="../img/Me.jpeg" alt=""className='i-img'></img> 
         </div>
       </div>
-  )
+  );
 }
 
 export default intro
