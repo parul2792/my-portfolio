@@ -1,6 +1,6 @@
 import React from 'react';
 import "./intro.css"
-import Me from '../../img/Me.jpeg';
+//import Me from "../../img/Me.jpeg";
 
 const intro = () => {
   return (
@@ -30,7 +30,7 @@ const intro = () => {
       
       </div>
         <div className='i-right'>
-        <img src={Me} alt=""className='i-img'></img>
+         { /* <img src={Me} alt=""className='i-img'></img> */}
         </div>
       </div>
   )
