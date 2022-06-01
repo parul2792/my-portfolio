@@ -1,0 +1,154 @@
+.i{
+
+    display:flex;
+    background-color:beige;
+    border-width: 50px;
+    overflow: hidden;
+}
+
+
+.i-desc{
+
+
+    font-size: medium;
+    margin-top: 50px;
+}
+
+
+.i-left{
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.i-right{
+
+    flex: 1;
+    position: relative;
+    margin-left: 100px;
+
+}
+
+.i-left-wrapper{
+
+    padding: 150px;
+    height: 90%;
+    display:flexbox;
+    flex-direction:column-reverse;
+    justify-content: space-between;
+}
+
+.i-intro{
+
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+.i-name {
+
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.i-title{
+    height: 50px;
+    overflow: hidden;
+}
+
+.i-title-item{
+    height:50px;
+    font-size: 30px;
+    color:forestgreen;
+    display: flex;
+    align-items: center;
+}
+
+.i-scroll{
+
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+}
+
+@keyframes move {
+    25%{
+
+        transform: translateY(-50px);
+    }
+
+    50%{
+
+        transform: translateY(-100px);
+    }
+
+    75%{
+
+        transform: translateY(-150px);
+    }
+
+    100%{
+        transform: translateY(-200px);
+
+    }
+}
+
+
+.i-title-wrapper{
+    height: 200%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+.i-img{
+
+    width: 85%;
+    height: 80%;
+    object-fit:unset;
+   /*position: absolute;*/
+    margin-right: 500px;
+}
+
+
+.i-bg{
+
+    /*clip-path:polygon(100% 0%, 100% 51%, 100% 100%, 50% 100%, 0% 50%, 25% 0% ); */
+   /* clip: rect(110px, 160px, 170px, 60px); /* or "auto" */
+  /* clip: rect(0px,200px,100px,0px);*/
+   /*overflow: hidden;*/
+
+    /*background-color:dimgray;*/
+    width: 500%;
+    height: 100%;
+    margin-bottom: 70%;
+    position:absolute;
+    top:0;
+    right: 100pt;
+    left: 80%;
+}
+
+.hello{
+
+    position: absolute;
+  
+    background: red;
+}
+
+
+
+.i-scroll{
+
+    width: 60px;
+    height: 50px;
+   /* position: absolute;*/
+    bottom: 30px;
+}
+
+
+.solid {
+    border-top: 100px solid #bbb;
+    margin-bottom: 100px;
+  }
