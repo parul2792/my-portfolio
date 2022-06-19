@@ -5,19 +5,25 @@ import "./intro.css"
 const intro = () => {
   return (
 
-    <div className='i'>
+    <div className='i' id='Intro'>
       
    
       <div className='i-left'>
       <div className="i-left-wrapper">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
         <h2 className='i-intro'>Hello, My name is</h2>
+          
         <h1 className='i-name'>Parul Srivastava</h1>
         <div className='i-title'>
             <div className="i-title-wrapper">
                 <div className='i-title-item'>Web Designer</div>
                 <div className='i-title-item'>UI/UX Designer</div>
                 <div className='i-title-item'>Java</div>
-                <div className='i-title-item'>Business Analysis</div>
+                <div className='i-title-item'>Business Analytics</div>
                 <div className='i-title-item'>Database Management</div>
                 <div className='i-title-item'>Project Management</div>
 
@@ -25,7 +31,7 @@ const intro = () => {
 
         </div>
         <p className='i-desc'>
-            <b>PURSUING MS IN INFORMATION SYSTEMS FROM 
+            <b>PURSUING MS IN INFORMATION SYSTEMS AT 
             NORTHEASTERN UNIVERSITY</b>
         
       </p>
@@ -46,6 +52,11 @@ const intro = () => {
           <div className='i-bg'>
            
           </div>
+          <br/>
+          <br/>
+          <br/>
+
+
         {/* <img src="../img/Me_new.jpeg" alt=""className='i-img'></img> */}
          <img src="https://static.wixstatic.com/media/c9e7ee_cebeb930a2e74f079a4dba265f5c8096~mv2.gif" 
          alt="N7R18YFE07SP9WP9.gif" 

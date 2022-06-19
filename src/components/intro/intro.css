@@ -27,15 +27,25 @@
 .i-right{
 
     flex: 1;
-    position: relative;
+    /*position: relative;*/
     margin-left: 100px;
 
 }
 
+
+@media screen  and (max-width: 480px)
+{
+    .i{
+
+        flex-direction: column;
+    }
+}
+
+
 .i-left-wrapper{
 
     padding: 150px;
-    height: 90%;
+    height: 100%;
     display:flexbox;
     flex-direction:column-reverse;
     justify-content: space-between;
@@ -55,7 +65,7 @@
 }
 
 .i-title{
-    height: 50px;
+    height: 100px;
     overflow: hidden;
 }
 
@@ -99,7 +109,7 @@
 
 
 .i-title-wrapper{
-    height: 200%;
+    height: 400%;
     animation: move 10s ease-in-out infinite alternate;
 }
 
@@ -121,13 +131,9 @@
    /*overflow: hidden;*/
 
     /*background-color:dimgray;*/
-    width: 500%;
-    height: 100%;
-    margin-bottom: 70%;
+    
+   /* margin-bottom: 70%;*/
     position:absolute;
-    top:0;
-    right: 100pt;
-    left: 80%;
 }
 
 .hello{

@@ -1,4 +1,6 @@
 import React from 'react';
+//import { NavLink} from "react-router-dom";
+import {HashLink as Link} from 'react-router-hash-link';
 import {FaLinkedin} from "react-icons/fa";
 import "./Navbar.css"
  
@@ -16,16 +18,16 @@ const Navbar = () => {
 <div className='menu-link'>
     <ul>
       <li>
-       <b> <a href='#'>Home</a></b>
+       <b> <Link to="#Intro">Home</Link></b>
       </li>
       <li>
-       <b> <a href='#'>About</a></b>
+       <b> <Link smooth to="#About">About</Link></b>
       </li>
       <li>
-        <b><a href='#'>Experience</a></b>
+        <b><Link smooth to="#Experience">Experience</Link></b>
       </li>
       <li>
-        <b><a href='#'>Contact</a></b>
+        <b><Link smooth to="#ContactUs">Contact</Link></b>
       </li>
     </ul>
 </div>
@@ -33,7 +35,7 @@ const Navbar = () => {
 <div className='social-media'>
 <ul className='social-media-desktop'>
   <li>
-    <a href='https://www.linkedin.com/home' className='LinkedIn'>
+    <a href='https://www.linkedin.com/in/p-srivastava/' className='LinkedIn'>
       <FaLinkedin/>
     </a>
   </li>
