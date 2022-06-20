@@ -39,7 +39,7 @@ const [showMediaIcons, setShowMediaIcons]= useState(false);
 <ul className='social-media-desktop'>
   <li>
     <a href='https://www.linkedin.com/in/p-srivastava/' className='LinkedIn'>
-      <FaLinkedin size={36}/>
+      <FaLinkedin size={28}/>
     </a>
   </li>
 

@@ -37,7 +37,7 @@ export const Footer = () => {
                             </LinkedinShareButton>
                         </div>
                         <p className="pt-3 text-center">
-                            Copyright&copy;
+                           Copyright&copy;
                             {new Date().getFullYear()}&nbsp;
                         </p>
                     </div>
