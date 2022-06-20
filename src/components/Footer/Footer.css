@@ -1,0 +1,38 @@
+.footer {
+    background: #3a3838;
+    color: var(--primary-dark-grey);
+    padding: 3rem;
+    color: white;
+    height: 300vh;
+    border-top-style: solid; 
+    border-top-width: 30px;
+    position: relative;
+
+}
+
+
+.footer p:hover {
+    text-decoration: none;
+    color: var(--primary-orange-color);
+    cursor: pointer;
+}
+
+.footer p {
+    margin-bottom: 0;
+    font-family: 'PT Serif', serif;
+}
+
+.thankyou-note {
+    font-size: x-large;
+
+}
+
+
+/* .footer{
+
+    height: 500vh;
+    position: relative;
+    border-color:dimgrey;
+    border-top-style: solid; 
+    border-top-width: 30px;
+} */

@@ -10,6 +10,8 @@ import Navbar from './components/Navbar/Navbar';
 import {useMediaQuery} from 'react-responsive';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+
 
 const App = () => {
   return (
@@ -33,6 +35,7 @@ const App = () => {
        <About/>
        <Experience/>
        <Contact/>
+       <Footer/>
 
          <Routes>
            {/* <Route path="/" element={<Navbar/>} /> */}
