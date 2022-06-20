@@ -23,19 +23,21 @@ const Experience = () => {
       <br/>
       - Was involved in handling SugarCRM backoffice modules, FPAL and CTax App projects.
       <br/>
-      - Designed wireframes and prototypes of various screens for CTax App.
+      - Designed wireframes and prototypes of various screens for CTax App using mockflow.
       <br/>
       - Collected requirements from clients, created user stories, project features, documented the requirements and use cases.
       <br/>
-      - Served as a liason between client and technical team, explained the requirements to the developer.
+      - Served as a liason between client and technical team, explained the requirements to the developer, created software flowcharts of modules,UML diagrams in lucidcharts.
       <br/>
       - Participated in sprint planning, story pointing, effort estimate, sprint review and retrospective as part of the agile process.
       <br/>
       - Tested the features and API's using Postman API on UAT, created test cases, test scenarios and did versioning testing.
       <br/>
-      - Wrote SQL queries, prepared visualization reports in Redash and Power BI and presented the data to the client.
+      - Wrote MYSQL queries, prepared visualization reports in Redash and Power BI and presented the data to the client.
       <br/>
       - Interacted with the clients on daily basis, prepared release notes, was involved in UAT release testing, bug fixes, pre and post production release and testing.
+      <br/>
+      - Tracked progress of development tasks using project management tool (Trello).
       <br/>
       - Handled 5 juniors, assigned them tasks, set task priority deadline and gave knowledge transfer sessions to them.
       </h4>
@@ -49,9 +51,9 @@ const Experience = () => {
       <br/>
       - Congregated, scoped and created functional specifications with the client, generated design documents and presented solutions interacted with New York and UK based clients.
       <br/>
-      - Developed and debugged software to support functionality in C#.Net, developed 2FA login screens using C#.net for ERP and CRM applications, executed code inspection and worked on SQL &nbsp;&nbsp;queries for fetching the data, prepared client utilization query builder report which reduced manual work and increased efficiency.
+      - Developed and debugged software to support functionality in C#.Net, developed 2FA login screens using C#.net for ERP and CRM applications, executed code inspection and worked on SQL &nbsp;&nbsp;queries for fetching the data, prepared client utilization query builder report in C#.net, which reduced manual work and increased efficiency.
       <br/>
-      - Delivered software for unit testing and sub-system testing, conducted root cause analysis (RCA) and impact analysis of the client issues and gathered information for improvement/fixing issue
+      - Delivered software for unit testing and sub-system testing, conducted root cause analysis (RCA) and impact analysis of the client issues and gathered information for improvement/fixing issue.
       <br/>
       - Organized and released patch/builds on production server as well as on UAT for client testing purpose, managed production support as well.
       <br/> 
@@ -59,9 +61,9 @@ const Experience = () => {
       <br/>
       - Managed vendors related to new ERP system onboarding, prepared documentation for undocumented projects/modules.
       <br/>
-      - Prioritize backlog and collaborate with cross functional teams, Maintain and present status updates, prioritize the backlog according to the priorities set by stakeholders.
+      - Prioritized backlog and collaborated with cross functional teams, maintained and presented status updates, prioritized the backlog according to the priorities set by stakeholders.
       <br/>
-      - Handled new joinees, trained them and tracked progress of the tasks assigned to them 
+      - Handled new joinees, trained them and tracked progress of the tasks assigned to them. 
       </h4> 
     </Accordion.Body>
   </Accordion.Item>
@@ -132,26 +134,55 @@ const Experience = () => {
     <Accordion.Item eventKey="6" id='Acc6'>
     <Accordion.Header><h1 id='F6'>Masters in Computer Applications (University of Pune)</h1> <h3 id='F66'> &nbsp; -  July 2013 - April 2016 </h3></Accordion.Header>
     <Accordion.Body>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    <h4> Course Curriculum:
+      <br/>
+      <br/>
+      - Database Management Systems and Advance Database Management Systems
+      <br/>
+      <br/>
+      - Java and OOPS programming
+      <br/>
+      <br/> 
+      - Web Technologies and Advance Development Technology (ASP.Net)
+      <br/>
+      <br/> 
+      - Mobile Computing and Data Networking
+      <br/>
+      <br/> 
+      - Software Engineering, Software Project Management, Sofware Quality Assurance and Software Testing
+      <br/>
+      <br/> 
+      - Data Structures and Operating Systems
+      <br/>
+      <br/> 
+      - Design and Analysis of Algorthims
+      <br/>
+      
+      </h4>
     </Accordion.Body>
   </Accordion.Item>
 
   <Accordion.Item eventKey="7" id='Acc7'>
     <Accordion.Header><h1 id='F7'>Bachelors in Computer Applications (University of Pune)</h1> <h3 id='F77'> &nbsp; -  July 2010 - April 2013 </h3></Accordion.Header>
     <Accordion.Body>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    <h4> Course Curriculum:
+      <br/>
+      <br/>
+      - C++ and Data structures using C
+      <br/>
+      <br/>
+      - Visual Basic and VB.Net
+      <br/>
+      <br/> 
+      - Core Java 
+      <br/>
+      <br/> 
+      - Database Management Systems and Relational Database Management Systems
+      <br/>
+      <br/> 
+      - Multimedia and Operating Systems
+      <br/>
+      </h4>
     </Accordion.Body>
   </Accordion.Item>
     </Accordion>

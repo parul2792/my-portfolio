@@ -114,7 +114,7 @@ const Contact = () => {
             </div>
           <div className="c-info-item">
             <img className="c-icon" src={Address} alt="" />
-            India
+            Seattle
           </div>
         </div>
       </div>

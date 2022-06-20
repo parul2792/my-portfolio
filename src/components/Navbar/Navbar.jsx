@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 //import { NavLink} from "react-router-dom";
 import {HashLink as Link} from 'react-router-hash-link';
 import {FaLinkedin} from "react-icons/fa";
+import {GiHamburgerMenu} from "react-icons/gi";
 import "./Navbar.css"
  
 
 const Navbar = () => {
+const [showMediaIcons, setShowMediaIcons]= useState(false);
+
   return (
 <nav className='main-nav'>
   <div className='logo'>
@@ -15,7 +18,7 @@ const Navbar = () => {
     </h2>
   </div>
 
-<div className='menu-link'>
+<div className= {showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
     <ul>
       <li>
        <b> <Link to="#Intro">Home</Link></b>
@@ -41,6 +44,17 @@ const Navbar = () => {
   </li>
 
 </ul>
+
+{/* hamburger menu start */}
+
+<div className="hamburger-menu">
+    <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+
+    <GiHamburgerMenu/>
+
+    </a>
+
+</div>
 
 </div>
 

@@ -17,13 +17,17 @@ const About = () => {
       <div className="a-right">
        <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-        The best way to learn is by doing. The only way to build a strong work ethic is getting your hands dirty - Alex Spannos
+        <b>The best way to learn is by doing. The only way to build a strong work ethic is getting your hands dirty - Alex Spannos</b>
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          I am a motivated professional with strong analytical and people management skills. I am skilled in identifying
+          and documenting quality user business requirements for a new product implementations and major enhancements. I am curious 
+          to understand the business flow of the software system. I like to play with data to understand business insights and causes of discrepancies in data.
+          I also have a passion towards front end development who enjoys creating websites and mobile app designs. 
+        </p>
+        <br/>
+        <p className="a-desc">
+          Apart from all this, I am an acrylic painter. I love painting and sketching in my free time.
         </p>
       
       </div>
