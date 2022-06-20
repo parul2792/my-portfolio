@@ -15,7 +15,7 @@ export const Footer = () => {
 
                         </div>
                         <div className="d-felx">
-                            <p>Let's connect. You can connect with me through Gmail or LinkedIn.</p>
+                            <p>&nbsp;&nbsp;You can reach out to me through Gmail or LinkedIn.</p>
                         </div>
                     </div>
 
@@ -27,9 +27,9 @@ export const Footer = () => {
                             >
                                 <EmailIcon className="max-3" size={36} />
                             </EmailShareButton>&nbsp;&nbsp;&nbsp;
-                            <FacebookShareButton url="https://www.facebook.com/khushbu.kumari.3572" >
+                            {/* <FacebookShareButton url="https://www.facebook.com/khushbu.kumari.3572" >
                                 <FacebookIcon className="max-3" size={36} />
-                            </FacebookShareButton>&nbsp;&nbsp;&nbsp;
+                            </FacebookShareButton>&nbsp;&nbsp;&nbsp; */}
 
 
                             <LinkedinShareButton url="https://www.linkedin.com/in/p-srivastava/ ">

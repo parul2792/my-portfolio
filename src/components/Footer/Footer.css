@@ -1,12 +1,14 @@
 .footer {
-    background: #3a3838;
+    background: rgb(39, 39, 37) ;
     color: var(--primary-dark-grey);
     padding: 3rem;
     color: white;
-    height: 300vh;
+   /* height: 100vh;*/
     border-top-style: solid; 
     border-top-width: 30px;
     position: relative;
+    /*background-color:darkkhaki;*/
+
 
 }
 
@@ -27,6 +29,17 @@
 
 }
 
+
+
+
+
+@media screen and (max-width: 480px) {
+.footer {
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+  
+}
 
 /* .footer{
 

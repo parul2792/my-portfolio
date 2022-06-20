@@ -9,8 +9,9 @@ import About from './components/About/About';
 import Navbar from './components/Navbar/Navbar';
 import {useMediaQuery} from 'react-responsive';
 import Experience from './components/Experience/Experience';
+import {Footer} from './components/Footer/Footer';
+
 import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
 
 
 const App = () => {
@@ -37,12 +38,14 @@ const App = () => {
        <Contact/>
        <Footer/>
 
+
          <Routes>
            {/* <Route path="/" element={<Navbar/>} /> */}
            <Route path="/Intro" element={<Intro/>} />
            <Route path="/About" element={<About/>} />
            <Route path="/Experience" element={<Experience/>} />
            <Route path="/Contact" element={<Contact/>} />
+
          </Routes>
        </Router>
      </>
