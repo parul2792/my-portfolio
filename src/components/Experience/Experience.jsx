@@ -33,7 +33,7 @@ const Experience = () => {
       <br/>
       - Tested the features and API's using Postman API on UAT, created test cases, test scenarios and did versioning testing.
       <br/>
-      - Wrote MYSQL queries, prepared visualization reports in Redash and Power BI and presented the data to the client.
+      - Wrote MYSQL queries, prepared visualization reports in Redash and presented the data to the stakeholder.
       <br/>
       - Interacted with the clients on daily basis, prepared release notes, was involved in UAT release testing, bug fixes, pre and post production release and testing.
       <br/>
