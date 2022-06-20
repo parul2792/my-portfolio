@@ -18,6 +18,14 @@
     display: flex;
   }
   
+
+  #C1{
+
+    color:rgb(31, 192, 31);
+  }
+
+
+
   .c-left {
     flex: 1;
   }

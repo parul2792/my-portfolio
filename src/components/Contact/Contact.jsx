@@ -94,7 +94,7 @@ const Contact = () => {
   };
   
   return (
-    <div className="c" id='ContactUs'>
+    <div className="c" id='foot'>
     <div className="c-bg"></div>
     <div className="c-wrapper">
       <div className="c-left">
@@ -106,7 +106,7 @@ const Contact = () => {
           </div> */}
           <div className="c-info-item">
             <img className="c-icon" src={Email} alt="" />
-            srivastava.par@northeastern.edu
+            srivastava.par@northeastern.edu <br/>parul2792.sri@gmail.com
           </div>
           <div className="c-info-item">
             <img className="c-icon" src={linkedin} alt="" />
@@ -121,7 +121,7 @@ const Contact = () => {
       <div className="c-right">
         <p className="c-desc">
           <br/>
-          <b/><h1>GET IN TOUCH | CONTACT ME </h1>
+          <b/><h1 id='C1'>GET IN TOUCH | CONTACT ME </h1>
         </p>
         
         <form ref={formRef} onSubmit={handleSubmit}>
