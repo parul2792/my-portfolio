@@ -3,7 +3,7 @@
     color: var(--primary-dark-grey);
     padding: 3rem;
     color: white;
-   /* height: 100vh;*/
+  /* height: 100vh;*/
     border-top-style: solid; 
    /* border-top-width: 30px;*/
     position: relative;
@@ -43,7 +43,7 @@
 .footer {
       flex-direction: column;
      display: block;
-     min-height: 1000px;
+     /*min-height: 5px;
       /* padding: 0px 150px;*/
     }
   
