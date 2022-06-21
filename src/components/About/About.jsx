@@ -22,7 +22,7 @@ const About = () => {
         <p className="a-desc">
           I am a motivated professional with strong analytical and people management skills. I am skilled in identifying
           and documenting quality user business requirements for a new product implementations and major enhancements. I am curious 
-          to understand the business flow of the software system. I like to play with data to understand business insights and causes of discrepancies in data.
+          to understand the business flow of the software system. I like to play with the data to understand the business insights and causes of discrepancies in data.
           I also have a passion towards front end development who enjoys creating websites and mobile app designs. 
         </p>
         <br/>
