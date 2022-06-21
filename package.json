@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://parul2792.github.io/my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.1",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^4.0.0",
     "google-maps-react": "^2.0.6",
     "react": "^18.1.0",
     "react-bootstrap": "^2.5.0-beta.0",
@@ -22,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

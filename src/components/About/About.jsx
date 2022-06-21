@@ -8,7 +8,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="../img/Img3.jpeg"
+            src="img/Img3.jpeg"
             alt=""
             className="a-img"
           />
