@@ -6,6 +6,7 @@ const About = () => {
     <div className="a"  id='About'>
       <div className="a-left">
         <div className="a-card bg"></div>
+        <br/>
         <div className="a-card">
           <img
             src="img/Img3.jpeg"
@@ -21,14 +22,14 @@ const About = () => {
         </p>
         <p className="a-desc">
           I am a motivated professional with strong analytical and people management skills. I am skilled in identifying
-          and documenting quality user business requirements for a new product implementations and major enhancements. I am curious 
-          to understand the business flow of the software system. I like to play with the data to understand the business insights and causes of discrepancies in data.
-          I also have a passion towards front end development who enjoys creating websites and mobile app designs. 
+          and documenting quality user business requirements for a new product implementations and major enhancements. I like to play with the data to understand the business insights and causes of discrepancies in data.
+          I also have a passion towards front end development who enjoys creating websites and designs. 
+          <br/>Apart from all this, I am an acrylic painter. I love painting and sketching in my free time.
+
         </p>
         <br/>
-        <p className="a-desc">
-          Apart from all this, I am an acrylic painter. I love painting and sketching in my free time.
-        </p>
+        {/* <p className="a-desc">
+        </p> */}
       
       </div>
     </div>

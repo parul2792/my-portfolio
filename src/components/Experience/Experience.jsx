@@ -125,7 +125,7 @@ const Experience = () => {
       INFO 5100 - Application Engineering and Development
       <br/>
       <br/>
-      DAMG 6210 - Data Management and Database Design
+      INFO 6150 - Web Design and User Experience Engineering
       <br/>
       </h4>
     </Accordion.Body>
@@ -137,27 +137,13 @@ const Experience = () => {
     <h4> Course Curriculum:
       <br/>
       <br/>
-      - Database Management Systems and Advance Database Management Systems
-      <br/>
-      <br/>
-      - Java and OOPS programming
+      - Database Management Systems, Advance Database Management Systems, Java, Design and Analysis of Algorthims, Data Structures 
+     
       <br/>
       <br/> 
-      - Web Technologies and Advance Development Technology (ASP.Net)
-      <br/>
-      <br/> 
-      - Mobile Computing and Data Networking
-      <br/>
-      <br/> 
-      - Software Engineering, Software Project Management, Sofware Quality Assurance and Software Testing
-      <br/>
-      <br/> 
-      - Data Structures and Operating Systems
-      <br/>
-      <br/> 
-      - Design and Analysis of Algorthims
-      <br/>
-      
+      - Web Technologies and Advance Development Technology (ASP.Net), Software Project Management
+     
+     
       </h4>
     </Accordion.Body>
   </Accordion.Item>
@@ -167,20 +153,11 @@ const Experience = () => {
     <Accordion.Body>
     <h4> Course Curriculum:
       <br/>
+      
       <br/>
-      - C++ and Data structures using C
-      <br/>
-      <br/>
-      - Visual Basic and VB.Net
-      <br/>
-      <br/> 
-      - Core Java 
-      <br/>
-      <br/> 
-      - Database Management Systems and Relational Database Management Systems
-      <br/>
-      <br/> 
-      - Multimedia and Operating Systems
+      - VB.Net, Database Management Systems, Relational Database Management Systems, Core Java 
+      
+      
       <br/>
       </h4>
     </Accordion.Body>

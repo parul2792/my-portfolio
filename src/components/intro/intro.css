@@ -4,6 +4,8 @@
     background-color:beige;
     border-width: 50px;
     overflow: hidden;
+    
+   height: auto;
 }
 
 
@@ -49,6 +51,7 @@
     display:flexbox;
     flex-direction:column-reverse;
     justify-content: space-between;
+    /*width: 1550px;*/
 }
 
 .i-intro{
@@ -65,8 +68,9 @@
 }
 
 .i-title{
-    height: 100px;
+    height: 50px;
     overflow: hidden;
+    width: 450px;
 }
 
 .i-title-item{
@@ -82,7 +86,7 @@
     width: 30px;
     height: 30px;
     position: absolute;
-    bottom: 20px;
+    /*bottom: 20px;*/
 }
 
 @keyframes move {
@@ -109,7 +113,7 @@
 
 
 .i-title-wrapper{
-    height: 400%;
+    height: 600%;
     animation: move 10s ease-in-out infinite alternate;
 }
 
@@ -120,6 +124,7 @@
     object-fit:unset;
    /*position: absolute;*/
     margin-right: 500px;
+    margin-bottom: 30px;
 }
 
 
@@ -148,7 +153,7 @@
 .i-scroll{
 
     width: 60px;
-    height: 50px;
+    height: 30px;
    /* position: absolute;*/
     bottom: 30px;
 }

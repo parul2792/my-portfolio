@@ -1,9 +1,9 @@
 .c {
-    height: 120vh;
+    height: 135vh;
     position: relative;
     border-color:dimgrey;
     border-top-style: solid; 
-    border-top-width: 30px;
+    border-top-width: 20px;
   }
   
   /* .c-bg {

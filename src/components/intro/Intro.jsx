@@ -21,11 +21,10 @@ const intro = () => {
         <div className='i-title'>
             <div className="i-title-wrapper">
                 <div className='i-title-item'>Web Designer</div>
-                <div className='i-title-item'>UI/UX Designer</div>
                 <div className='i-title-item'>Java</div>
                 <div className='i-title-item'>Business Analytics</div>
                 <div className='i-title-item'>Database Management</div>
-                <div className='i-title-item'>Project Management</div>
+                <div className='i-title-item'>Product Management</div>
 
         </div>
 
@@ -33,7 +32,13 @@ const intro = () => {
         <p className='i-desc'>
             <b>PURSUING MS IN INFORMATION SYSTEMS AT 
             NORTHEASTERN UNIVERSITY</b>
-        
+            <br/>
+            <br/>
+
+               <p className='i-desc'>
+         <b>I aspire to work as a Business Analyst, Business Consultant, Product Manager, Project Manager and Business Intelligence Analyst roles.
+         </b>
+        </p>
       </p>
       {/* <svg width="175"
       height="175" 

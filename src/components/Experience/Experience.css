@@ -2,10 +2,10 @@
 
     border-color:dimgrey;
     border-top-style: solid; 
-    border-top-width: 30px;
+    border-top-width: 20px;
     background-color:beige;   
     overflow: hidden;
-    height: 770px;
+    height: 745px;
 } 
 
 .journey{
@@ -24,7 +24,7 @@
 .education{
 
     align-items:center;
-     height: 50px;
+     height: 40px;
     display: flex;
    justify-content: center;
     orientation: 100px;
@@ -89,7 +89,7 @@
     left: 50%;
 } */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
     .c-exp {
       flex-direction: column;
       padding: 0px 50px;
