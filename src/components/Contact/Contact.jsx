@@ -112,9 +112,13 @@ const Contact = () => {
             <img className="c-icon" src={linkedin} alt="" />
             https://www.linkedin.com/in/p-srivastava/          
             </div>
+            <div className="c-info-item">
+            <img className="c-icon" src={Phone} alt="" />
+            +1 4253000266
+          </div>
           <div className="c-info-item">
             <img className="c-icon" src={Address} alt="" />
-            Seattle
+            Seattle, WA
           </div>
         </div>
       </div>

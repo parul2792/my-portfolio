@@ -6,7 +6,7 @@ import "./Footer.css";
 
 export const Footer = () => {
     return (
-        <div className="footer" id="ContactUs">
+        <div className="footer" id="ContactMe">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">

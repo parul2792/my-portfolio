@@ -125,7 +125,7 @@ const Experience = () => {
       INFO 5100 - Application Engineering and Development
       <br/>
       <br/>
-      INFO 6150 - Web Design and User Experience Engineering
+      DAMG 6210 - Data Management and Database Design
       <br/>
       </h4>
     </Accordion.Body>
@@ -156,6 +156,8 @@ const Experience = () => {
       
       <br/>
       - VB.Net, Database Management Systems, Relational Database Management Systems, Core Java 
+      <br/>
+      <br/>- Multimedia and Operating Systems
       
       
       <br/>

@@ -36,7 +36,7 @@ const intro = () => {
             <br/>
 
                <p className='i-desc'>
-         <b>I aspire to work as a Business Analyst, Business Consultant, Product Manager, Project Manager and Business Intelligence Analyst roles.
+         <b>I aspire to work as a Business Analyst, Data Analyst, Business Consultant, Product Manager, Project Manager and Business Intelligence Analyst roles.
          </b>
         </p>
       </p>

@@ -30,7 +30,7 @@ const [showMediaIcons, setShowMediaIcons]= useState(false);
         <b><Link smooth to="#Experience">Experience</Link></b>
       </li>
       <li>
-        <b><Link smooth to="#ContactUs">Contact</Link></b>
+        <b><Link smooth to="#ContactMe">Contact</Link></b>
       </li>
     </ul>
 </div>
